@@ -304,9 +304,9 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
     color: #f16d7f;
-    margin-top: 18px;
-    margin-left: 14px;
-    margin-right: 14px;
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 .cards-bottom {
     display: flex;
@@ -1139,7 +1139,6 @@ ul {
     }
 
     .model-btn {
-        display: block;
         width: 541px;
         height: 55px;
         border: 1px solid $color-2;
@@ -1409,7 +1408,7 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
     color: #6f6e6e;
-    margin-top: 18px;
+    padding-top: 18px;
     padding-left: 14px;
     padding-right: 14px;
   }
