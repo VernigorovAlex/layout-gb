@@ -308,7 +308,7 @@ ul {
 .shop__items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 30px;
     @media screen and (max-width: 1140px){
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
@@ -320,12 +320,6 @@ ul {
 .cards__item {
     box-shadow: none;
     padding-bottom: 20px;
-    &:not(:nth-child(n+5)){
-        margin-top: 60px;
-    }
-}
-.cards__item:not(:nth-child(4n)) {
-    margin-right: 20px;
 }
 .cards__item:hover .feature-buy {
     display: block;

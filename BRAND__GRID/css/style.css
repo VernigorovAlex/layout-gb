@@ -425,7 +425,7 @@ ul {
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 
 @media screen and (max-width: 1140px) {
@@ -447,14 +447,6 @@ ul {
   -webkit-box-shadow: none;
           box-shadow: none;
   padding-bottom: 20px;
-}
-
-.cards__item:not(:nth-child(n+5)) {
-  margin-top: 60px;
-}
-
-.cards__item:not(:nth-child(4n)) {
-  margin-right: 20px;
 }
 
 .cards__item:hover .feature-buy {
