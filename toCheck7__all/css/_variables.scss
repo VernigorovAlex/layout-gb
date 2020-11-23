@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+
+
+$mainColor: #f16d7f;
+$color-2: #ef5b70;
+$lineHeight: 24px;
+
+%modelInner {
+    margin: 0 auto;
+    text-align: center;
+}
+
+%choose {
+    width: 144px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    font-size: 13px;
+    line-height: $lineHeight;
+    font-weight: 400;
+    color: #bcbcbc;
+    padding-right: 9px;
+}
+
+%likeText {
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+
+
