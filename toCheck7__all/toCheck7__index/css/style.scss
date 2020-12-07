@@ -29,6 +29,7 @@ ul {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 10px;
     @media screen and (max-width: 1140px){
         max-width: 970px;
     }
@@ -551,6 +552,9 @@ ul {
 }
 .subscribe-content {
     margin-left: 25px;
+    @media (max-width: 580px){
+        margin-left: 0;
+    }
 }
 .subscribe-content__text {
     font-size: 16px;
